@@ -1,0 +1,8 @@
+// folders
+.idea
+coverage
+node_modules
+node
+
+// file types
+*.log
