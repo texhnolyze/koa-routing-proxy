@@ -1,0 +1,17 @@
+extends: airbnb-base
+
+env:
+  node: true
+  es6: true
+  browser: true
+  mocha: true
+
+rules:
+  max-len: ["error", 80]
+  no-param-reassign: ["error", { "props": false }]
+  no-use-before-define: off
+  callback-return: error
+  handle-callback-err: error
+  global-require: off
+  strict: off
+  import/no-unresolved: off
