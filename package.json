@@ -1,0 +1,42 @@
+{
+  "name": "koa-routing-proxy",
+  "version": "0.0.1",
+  "description": "a proxy middleware for usage with koa-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"./spec/**/*.spec.js\"",
+    "lint": "eslint --ext js ./*",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha \"./spec/**/*.spec.js\"  --include-all-sources true"
+  },
+  "keywords": [
+    "koa",
+    "koa-proxy",
+    "koa-router",
+    "koa-routing",
+    "proxy",
+    "routing"
+  ],
+  "author": "texhnolyze <jgg@sybit.de>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/texhnolyze/koa-routing-proxy"
+  },
+  "dependencies": {
+    "request-promise": "4.1.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-lint": "0.1.1",
+    "eslint": "2.13.1",
+    "eslint-config-airbnb-base": "3.0.1",
+    "eslint-config-angular": "0.5.0",
+    "eslint-config-standard": "5.3.1",
+    "eslint-plugin-import": "1.9.2",
+    "istanbul": "0.4.4",
+    "koa": "1.2.4",
+    "koa-router": "5.4.0",
+    "mocha": "2.5.3",
+    "sinon": "1.17.4",
+    "sinon-chai": "2.8.0"
+  }
+}
